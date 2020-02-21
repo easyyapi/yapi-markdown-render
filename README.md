@@ -1,7 +1,7 @@
 # yapi-markdown-render
 
 核心代码从[tui.editor](https://github.com/nhn/tui.editor)中提取
-利用[markdown-it](https://github.com/markdown-it/markdown-it)将渲染`markdown`到`html`
+利用[markdown-it](https://github.com/markdown-it/markdown-it)将`markdown`渲染成`html`
 
 # 初始化
 ```shell script
@@ -19,7 +19,7 @@ npm install
 
 # 获取`easy-yapi`配置
 
-1.执行shell,复制脚本输出的内容
+1.执行shell,复制脚本输出的内容(即为配置)
 ```shell script
 ./script/build_conf.sh
 ```
