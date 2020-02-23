@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "render": "node render.js $1"
+    "render": "node render.js",
+    "start": " node app.js"
   },
   "dependencies": {
-    "markdown-it": "8.4.0",
-    "markdown-it-anchor": "4.0.0",
-    "markdown-it-table-of-contents": "0.3.2",
     "highlightjs": "9.16.2",
     "jquery": "3.4.0",
-    "jsdom": "16.2.0"
+    "jsdom": "16.2.0",
+    "koa": "2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "markdown-it": "8.4.0",
+    "markdown-it-anchor": "4.0.0",
+    "markdown-it-table-of-contents": "0.3.2"
   },
   "keywords": [],
   "author": "",
