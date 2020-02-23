@@ -37,6 +37,7 @@ npm start
 
 2.在`easy-yapi`配置文件中做如下配置
 
+配置示例:
 ```properties
 markdown.render.server=http://服务器ip:端口/render
 ```
@@ -51,8 +52,7 @@ markdown.render.server=http://服务器ip:端口/render
 ```
 2.将配置放入项目中的配置文件里,项目配置文件配置方法见: [项目配置方法](http://easyyapi.com/setting/local-file-config.html)
 
-配置实例:
-
+配置示例:
 ```properties
 markdown.render.shell=/usr/local/bin/node render.js
 markdown.render.work.dir=/项目路径/yapi-markdown-render
