@@ -1,0 +1,24 @@
+{
+  "name": "yapi-markdown-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "render": "node render.js",
+    "start": " node app.js"
+  },
+  "dependencies": {
+    "highlight.js": "10.0.1",
+    "jquery": "3.5.0",
+    "jsdom": "16.2.0",
+    "koa": "2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "markdown-it": "10.0.0",
+    "markdown-it-anchor": "5.2.7",
+    "markdown-it-table-of-contents": "0.4.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
