@@ -117,7 +117,7 @@ function markdownToHtml(markdown, env) {
 
   markdown = replaceImgAttrToDataProp(markdown);
 
-  return markdownit.render(markdown, env);
+  return markdownitHighlight.render(markdown, env);
 }
 
 /**

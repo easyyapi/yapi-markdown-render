@@ -2,7 +2,7 @@
  * @fileoverview Implements CodeBlockManager
  * @author NHN FE Development Lab <dl_javascript@nhn.com>
  */
-const hljs = require('highlightjs');
+const hljs = require('highlight.js');
 
 /**
  * Class Code Block Manager
@@ -73,6 +73,4 @@ function escape(html, encode) {
     .replace(/'/g, '&#39;');
 }
 
-module.exports = {
-  codeBlockManager: new CodeBlockManager()
-};
+module.exports = new CodeBlockManager();

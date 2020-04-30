@@ -8,15 +8,15 @@
     "start": " node app.js"
   },
   "dependencies": {
-    "highlightjs": "9.16.2",
+    "highlight.js": "10.0.1",
     "jquery": "3.5.0",
     "jsdom": "16.2.0",
     "koa": "2.11.0",
     "koa-body": "^4.1.1",
     "koa-router": "^7.4.0",
-    "markdown-it": "8.4.0",
-    "markdown-it-anchor": "4.0.0",
-    "markdown-it-table-of-contents": "0.3.2"
+    "markdown-it": "10.0.0",
+    "markdown-it-anchor": "5.2.7",
+    "markdown-it-table-of-contents": "0.4.4"
   },
   "keywords": [],
   "author": "",
