@@ -10,7 +10,7 @@
   "dependencies": {
     "highlight.js": "10.0.1",
     "jquery": "3.5.0",
-    "jsdom": "16.2.0",
+    "jsdom": "16.6.0",
     "koa": "2.11.0",
     "koa-body": "^4.1.1",
     "koa-router": "^7.4.0",
